@@ -1,16 +1,18 @@
 public abstract class Item {
-    private int id;
+    private static int s_id = 1;
+    int id;
     private String name;
     private int price;
 
     public Item() {
-        this.id = 0;
+        this.id += 1;
         this.name = null;
         this.price = 0;
     }
 
-    public Item(int id, String name, int price) {
-        this.id = id;
+    public Item(String name, int price) {
+        this.id = this.s_id;
+        s_id++;
         this.name = name;
         this.price = price;
     }
