@@ -5,7 +5,8 @@ public abstract class Item {
     private int price;
 
     public Item() {
-        this.id += 1;
+        this.id = s_id;
+        s_id++;
         this.name = null;
         this.price = 0;
     }
