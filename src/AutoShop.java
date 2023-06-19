@@ -24,13 +24,18 @@ public class AutoShop {
 
     public void displayAllParts() {
         System.out.println("Available Auto Parts:");
+        System.out.println("ID : Name   : Price");
         for (Item part : parts) {
-            System.out.println(part);
+            System.out.printf("%d : %s : %d lea \n", part.getId(), part.getName(), part.getPrice());
+            
         }
         System.out.println();
     }
 
     public void sortPartsByPrice() {
         Collections.sort(parts, Comparator.comparingDouble(Item::getPrice));
+    }
+    public void sortPartsByID() {
+        Collections.sort(parts, Comparator.comparingDouble(Item::getId));
     }
 }

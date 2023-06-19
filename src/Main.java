@@ -12,6 +12,8 @@ public class Main {
         shop.displayAllParts();
         shop.sortPartsByPrice();
         shop.displayAllParts();
+        shop.sortPartsByID();
+        shop.displayAllParts();
 
 
     }
