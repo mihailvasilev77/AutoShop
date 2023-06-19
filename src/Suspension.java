@@ -25,5 +25,4 @@ public class Suspension extends Item {
         this.diamater = diamater;
     }
 
-
 }
