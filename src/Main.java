@@ -1,8 +1,18 @@
-
 public class Main {
     public static void main(String[] args) {
-        Breaks a1 = new Breaks("Kur", 2, "karbon", 16);
-        Breaks a2 = new Breaks("Kurec", 10, "ceramic", 50);
-        System.out.printf("%d, %d", a1.id, a2.id);
+        AutoShop shop = new AutoShop();
+        Breaks br = new Breaks("spi", 4, "rachki", 0);
+        Suspension sus = new Suspension("Suspenison", 0, 0, 0);
+        Wheel wh = new Wheel("name",1,1,1);
+
+        shop.addPart(wh);
+        shop.addPart(sus);
+        shop.addPart(br);
+
+        shop.displayAllParts();
+        shop.sortPartsByPrice();
+        shop.displayAllParts();
+
+
     }
 }
