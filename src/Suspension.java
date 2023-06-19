@@ -3,8 +3,8 @@ public class Suspension extends Item {
     private int diamater;
 
 
-    public Suspension(int id, String name, int price, int size, int diamater) {
-        super(id,name,price);
+    public Suspension(String name, int price, int size, int diamater) {
+        super(name,price);
         this.size = size;
         this.diamater = diamater;
     }
