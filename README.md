@@ -1,4 +1,4 @@
-![autoshop](https://github.com/mihailvasilev77/AutoShop/assets/124471009/433c197e-5b8c-4275-ad8e-8dcd456a2292)Auto Shop Management System 
+Auto Shop Management System 
 
 Welcome to the Auto Shop Management System! This is a Java-based application that helps auto shops manage their day-to-day operations efficiently. This README provides an overview of the project, installation instructions, and basic usage guidelines.
 
