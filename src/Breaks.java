@@ -2,8 +2,8 @@ public class Breaks extends Item {
     private String material;
     private int size;
 
-    public Breaks(String name, int price, int quantity, String material, int size) {
-        super(name, price, quantity);
+    public Breaks(String name, int price, String material, int size) {
+        super(name, price);
         this.material = material;
         this.size = size;
     }

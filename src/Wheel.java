@@ -2,8 +2,8 @@ public class Wheel extends Item{
     private int WheelSize;
     private int WheelWidth;
 
-    public Wheel(String name, int price, int quantity, int size, int width) {
-        super(name, price, quantity);
+    public Wheel(String name, int price, int size, int width) {
+        super(name, price);
         this.WheelSize = size;
         this.WheelWidth = width;
     }
