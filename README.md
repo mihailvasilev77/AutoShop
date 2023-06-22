@@ -1,4 +1,5 @@
-Auto Shop Management System (Java)
+Auto Shop Management System 
+
 Welcome to the Auto Shop Management System! This is a Java-based application that helps auto shops manage their day-to-day operations efficiently. This README provides an overview of the project, installation instructions, and basic usage guidelines.
 
 Table of Contents
