@@ -11,7 +11,7 @@ public abstract class Item {
         this.price = 0;
     }
 
-    public Item(String name, int price) {
+    public Item(String name, int price, int quantity) {
         this.id = this.s_id;
         s_id++;
         this.name = name;
@@ -41,4 +41,6 @@ public abstract class Item {
     public void setPrice(int price) {
         this.price = price;
     }
+
+
 }
