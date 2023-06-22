@@ -1,4 +1,4 @@
-Auto Shop Management System 
+![autoshop](https://github.com/mihailvasilev77/AutoShop/assets/124471009/433c197e-5b8c-4275-ad8e-8dcd456a2292)Auto Shop Management System 
 
 Welcome to the Auto Shop Management System! This is a Java-based application that helps auto shops manage their day-to-day operations efficiently. This README provides an overview of the project, installation instructions, and basic usage guidelines.
 
@@ -31,7 +31,10 @@ Contributing
 Contributions to the Auto Shop Management System are welcome! If you have any suggestions, bug reports, or feature requests, please submit them via issues or pull requests on the project's GitHub repository. Ensure that your contributions align with the project's coding conventions and standards.
 
 License
+
 The Auto Shop Management System is open-source software released under the MIT License. You are free to use, modify, and distribute the code for both commercial and non-commercial purposes. See the LICENSE file for more information.
 
 Acknowledgments
 We would like to express our gratitude to all the contributors and open-source libraries that have made this project possible. Thank you for your support and dedication!
+
+![autoshop](https://github.com/mihailvasilev77/AutoShop/assets/124471009/757de556-bfd9-469f-a717-fa300f0f4a1c)
